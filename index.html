@@ -1,2 +1,16 @@
-<header>This is under construction!</header>
-<header>get. out. now.</header>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Prompt Example</title>
+</head>
+<body>
+    <h1 id="greeting">Hello!</h1>
+
+    <script>
+        let name = prompt("What is your name?");
+        if (name) {
+            document.getElementById("greeting").textContent = "Hello, " + name + "!";
+        }
+    </script>
+</body>
+</html>
